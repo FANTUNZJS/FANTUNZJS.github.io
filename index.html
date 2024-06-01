@@ -25,8 +25,43 @@
     <!--     Fonts and icons     -->
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     <link href='css/2d7207a20f294df196f3a53cae8a0def.css' rel='stylesheet' type='text/css'>
-	
+	<!-- START Ezmob TAG -->
+<script>
+window.adk_pdisp = {
+	'h' : 'xml.qualiclicks.com', 
+	'f' : 675274,
+	'a' : '1HZXZR',
+	'ps' : [1],
+	'cin' : 4,
+	's' : '',
+	'q' : [],
+	't' : 1
+};
+</script>
+<script src='//static.ezmob.com/tabu/display.js'></script>
+<!-- END Ezmob TAG -->
+	<form id='form' role='search'>
+<input type='search' id='query' name='q'
+placeholder='Search...'
+aria-label='Search through site content' required>
+<button>Search</button>
+</form>
+<script>
+const f = document.getElementById('form');
+const q = document.getElementById('query');
+function submitted(event) {
+event.preventDefault();
+const url = 'https://xml.qualiclicks.com/redirect?feed=675275&auth=Hm7xwa&query=' + q.value + '&url=https://fantunzjs.github.io';
+const win = window.open(url, '_blank');
+win.focus();
+}
+f.addEventListener('submit', submitted);
+</script>
+
+                                
+                                
 </head>
+	
 <body>
 	<div class="wrapper">
 
